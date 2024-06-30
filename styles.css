@@ -1,0 +1,80 @@
+body {
+  background-image: url(./yellow.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.phone-container {
+  width: 260px;
+  height: 460px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 15px solid #debc6d;
+  background: transparent;
+  color: black;
+}
+
+label {
+  margin: 10px auto;
+  
+}
+
+input {
+  font-family: inherit;
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  width: 90%;
+  height: 42px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  background: transparent;
+  background-color: rgba(227, 188, 104, 0.833);
+  box-shadow: 10px 10px 20px rgb(236, 163, 54);
+  border-radius: 20px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  width: 100px;
+  margin: 10px;
+  font-size: 18px;
+  background: transparent;
+  background-color: rgba(8, 8, 7, 0.7);
+  box-shadow: 10px 10px 20px rgb(236, 163, 54);
+  border-radius: 20px;
+}
+
+#check-btn {
+  background-color: #dfbc33;
+}
+
+#clear-btn {
+  background-color: #fffaae; 
+}
+
+.phone-footer {
+  background: transparent;
+}
+
+#results-div {
+  height: 200px;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0;
+  font-style: black;
+}
