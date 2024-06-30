@@ -11,7 +11,7 @@ life demo link []
 
 how it looks in desktop screen
 
-![screenshot]()
+![screenshot](./asset/screenshot.jpg)
 
 
 ## Technologies Used 🛠️
@@ -47,7 +47,7 @@ git clone git@github.com:sodabarauf/telephone-number-validator.git
 go to the terminal (git bash):
 ```bash
 
-cd>numerial-roman
+cd>telephone-validator-number
 
 ```
 open the project on your IDE like vscode :
