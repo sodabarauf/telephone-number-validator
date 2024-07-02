@@ -28,7 +28,6 @@ main {
 
 label {
   margin: 10px auto;
-  
 }
 
 input {
@@ -40,7 +39,7 @@ input {
   width: 90%;
   height: 42px;
   font-size: 16px;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   background: transparent;
   background-color: rgba(227, 188, 104, 0.833);
   box-shadow: 10px 10px 20px rgb(236, 163, 54);
@@ -64,7 +63,7 @@ button {
 }
 
 #clear-btn {
-  background-color: #fffaae; 
+  background-color: #fffaae;
 }
 
 .phone-footer {
@@ -77,5 +76,4 @@ button {
   font-size: 1.5rem;
   text-align: center;
   margin: 10px 0;
-  font-style: black;
 }
