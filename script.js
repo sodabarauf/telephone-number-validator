@@ -34,5 +34,3 @@ userInput.addEventListener('keydown', (e) => {
 clearBtn.addEventListener('click', () => {
   resultsDiv.innerHTML = '';
 });
-
-
