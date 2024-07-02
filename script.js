@@ -9,7 +9,6 @@ function checkValidNumber(input) {
   const spacesDashes = '[\\s\\-]?';
   const phoneNumber = '[0-9]{3}[\\s\\-]?[0-9]{4}$';
   const phoneRegex = new RegExp(`${countryCode}${areaCode}${spacesDashes}${phoneNumber}`);
-  phoneRegex.test(input) ? (resultsDiv.style.color = '#066637') : (resultsDiv.style.color = '#af0f0f');
   resultsDiv.innerHTML = `${phoneRegex.test(input) ? 'Valid' : 'Invalid'} US number: ${input}`;
 }
 
