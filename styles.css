@@ -2,6 +2,8 @@ body {
   background-image: url(./asset/yellow.avif);
   background-repeat: no-repeat;
   background-size: cover;
+  height:auto!important;
+  min-height:100vh;
 }
 
 main {
@@ -11,6 +13,8 @@ main {
   align-items: center;
   justify-content: center;
   background: transparent;
+  height:auto!important;
+  min-height:100vh;
 }
 
 .phone-container {
